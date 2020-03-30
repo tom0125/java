@@ -180,8 +180,9 @@
 		System.out.println(arrayA[0]);
 		System.out.println(arrayB[0]);
 
-    結果：1 
-         3
+    出力結果:
+    1 
+    3
   ```
 11. ☓　
 ``` java
