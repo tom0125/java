@@ -34,6 +34,8 @@
 
 	そのため同値であることの条件を定め、equalsメソッドをオーバーライドすることで実装する
 
+  ```java : equalsメソッドオーバーライド
+
 	public boolean equals(Object obj{
 		if(obj == null) {
 			return false;
@@ -44,7 +46,7 @@
 		}
 		return false;
 		}
-
+```
 10.equalsメソッドをオーバーライドする場合、メソッドのシグニチャを変更してはいけない 
 
 11.equalsメソッドをオーバーライドする場合いくつか条件があるが、試験対策としては 
