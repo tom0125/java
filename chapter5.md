@@ -13,7 +13,24 @@
         
       }while;
     ```
-4.
+4. 
+    #### 問題のコード   
+    ```java
+    public class main{
+      public static void main(String[]args){
+        for(int i = 0,long j = 2; i < 5; i++){//コンパイルエラー　初期化文で複数の変数を宣言する場合、変数は同じ型でなければならない
+          system.out.println(i * j);
+        }
+      }
+    }
+    
+    ```
+    #### 複数の一時変数を使用したfor文
+    ``` java
+    for(int i = 0, j = 0; i < 3; i++ ){
+      //繰り返し処理
+    }
+    ````
 5.
 6.
 7.
