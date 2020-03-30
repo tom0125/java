@@ -28,7 +28,7 @@
 9.参照の先にあるインスタンスが同じ値を持っているかはequalsメソッドで確認  
 	objectクラスに定義されているewualsメソッドは同一性を確認する実装になっている  
 
-```java:equalsメソッドオーバーライド
+```java:title
 
 	public boolean equals(Object obj){
 		return(this == obj)
