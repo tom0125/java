@@ -13,10 +13,10 @@
         
       }while;
     ```
-4. 
+4. ☓  
     #### 問題のコード   
     ```java
-    public class main{
+    public class Main{
       public static void main(String[]args){
         for(int i = 0,long j = 2; i < 5; i++){//コンパイルエラー　初期化文で複数の変数を宣言する場合、変数は同じ型でなければならない
           system.out.println(i * j);
@@ -31,7 +31,21 @@
       //繰り返し処理
     }
     ````
-5.
+5.  
+    #### 問題のコード
+    ``` java
+    public class Main{
+      public static void main(String[] args){
+        int a = 1;
+        for(int b = 2, total = 0; b <= 5; b++){
+          total = a + b;
+        }
+        System.out.println(total);//コンパイルエラー
+      }
+    }
+    ```
+    #### ■ point
+    - for文の初期化分で宣言した変数は、for文のブロック外で使うことができない。
 6.
 7.
 8.
