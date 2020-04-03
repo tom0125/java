@@ -61,12 +61,29 @@
      #### ■ point
      - 条件文は、繰り返し処理を実行する前に判定される。  
      条件式の結果がtrueであれば繰り返し処理を実行,falseであればfor文を抜ける  
-7.
-8.
-9.
-10.
-11.
-12.
+7. ○　　
+8. ○  
+9. ○  
+10. ○  
+11. ○  
+12. △  
+     #### 問題のコード
+    ```java
+    public static void main(String[] args) {
+		String[]array = {"a","b","c"};
+		int i = 0;
+		for(String str : array) {
+			str = "d";
+		}
+		for(String str : array) {
+			System.out.println(str);
+		}
+	}
+  ```
+  #### ■ point  
+  - 拡張for文では、繰り返し処理をするために一時的に変数を使っています。  
+  変数の参照を変更しても、集合には影響しない。変数の参照先のオブジェクトを変更した場合は影響する.
+  
 13.
 14.
 15.
