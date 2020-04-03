@@ -47,7 +47,20 @@
     #### ■ point
     - for文の初期化分で宣言した変数は、for文のブロック外で使うことができない。
     
-6. 
+6. ○
+    #### 問題のコード
+    ``` java
+    public class Main{
+      public static void main(String[] args){
+        for(int i = 0;i == 0; i++){
+          System.out.println(i)
+        }
+      }
+    }
+    ```
+     #### ■ point
+     - 条件文は、繰り返し処理を実行する前に判定される。  
+     条件式の結果がtrueであれば繰り返し処理を実行,falseであればfor文を抜ける  
 7.
 8.
 9.
