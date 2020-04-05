@@ -23,10 +23,11 @@
           //any code
         }
         複数のインターフェースを実現する場合は、上記コードのようにカンマ区切りで列挙する。
+        
         ```
      - インターフェースには、実現クラスがもつべき抽象メソッドを宣言する。抽象メソッドの中身(実装)をもつことはできない。
 
-        ```   java
+        ```java
         public interface Sample{
           public void hello(){}//コンパイルエラー
            public void hello()// ok
