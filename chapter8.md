@@ -49,7 +49,8 @@
 14. ○クラスキャストと例外クラスに関する問題
     #### ■ point
     - 継承関係や実現関係にないクラスにキャストしようとすると、**ClassCastException**が発生する
-15.　○ IllegalArgumentException
+    
+15. ○ IllegalArgumentException
     #### ■ point
     - public class IllegalArgumentException extends RuntimeException
     - 不正な引数、または不適切な引数をメソッドに渡したことを示すためにスローされます。
