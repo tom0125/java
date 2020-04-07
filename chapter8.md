@@ -16,7 +16,7 @@
     
 7. 
     #### ■ point
-    - Exception クラス図
+    - Exception クラス図  
       ![Exception クラス図](https://github.com/tom0125/java/blob/master/image/Exception%20%E3%82%AF%E3%83%A9%E3%82%B9%E5%9B%B3.jpg)
 8. 　
 9. 
