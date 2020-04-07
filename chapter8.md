@@ -15,7 +15,7 @@
 6. 　☓　catchブロックと、finallyブロックの両方がreturnで値を戻す場合、どちらの値が戻されるか
     #### ■ point
     - Exception クラス図
-      ![Exception クラス図](https://github.com/yoshitaku-jp/test_doc/blob/images/dog_akitainu.png)
+      ![Exception クラス図](https://github.com/tom0125/java/blob/master/image/Exception%20%E3%82%AF%E3%83%A9%E3%82%B9%E5%9B%B3.jpg)
 7. 　
 8. 　
 9. 
